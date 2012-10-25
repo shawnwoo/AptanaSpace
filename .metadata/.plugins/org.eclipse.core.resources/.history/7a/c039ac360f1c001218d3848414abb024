@@ -1,0 +1,17 @@
+// Add more objects of your choice
+
+$(document).ready(function() {
+
+	var qc = "#question_section";
+
+	var T1 = function() {
+		$("#question_section").addClass('loaded');
+
+		$("#question_section").html("<p>JQuery Loaded!</p>");
+		$("#question_section");
+	}
+	var loadQuestion = function() {
+		$(qc).html()
+
+	}
+})

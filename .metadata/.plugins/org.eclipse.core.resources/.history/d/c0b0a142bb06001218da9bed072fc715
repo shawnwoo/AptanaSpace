@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="author" content="Xiaopeng WU" />
+		<meta name="keywords" content="Xiaopeng, resume, activity" />
+		<meta name="description" content="HW1 of COEN 276" />
+		<title>index</title>
+
+		<style type="texxt/css" media="all">
+			@import "mystyles.css";
+		</style>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="intro">
+				<div id="pageHeader">
+					<h1><span>Welcome to Xiaopeng WU's website</span></h1>
+					<h2><span>My resume and activities</span></h2>
+				</div>
+				<div id="summary">
+					<p class="p1">
+						<span>Email: Shawnwoo@gmail.com
+							<br>
+							9+ years’ work experience in software QA field
+							<br>
+							1+ year work experience in SaaS start up company-Zuora.com.
+							<br>
+							4 years’ work experience in CA technology (formerly known as Computer Associates) Data protection division
+							<br>
+							4 years’ work experience in IBM Lotus division
+							<br>
+						</span>
+					</p>
+					<p>
+						<p>
+							<span>Good professional presentation skills. Team work spirit. High liability and Attribution. Be able to work under great pressure. Nice Characters.</span>
+						</p>
+						
+						<p><span>Familiar with latest technologies including cloud computing, virtualization, java, eclipse, data protection technology, storage, web-based software, client-server infrastructure.</span></p>
+
+						<p><span>Familiar with the concepts and workflows of finance, revenue recognition, billing systems and payment gateways.</span></p>
+
+						<p><span>Participated and worked as actual member of a scrum team for years and familiar with the testing process and methodologies for fast-paced (monthly release) software development.</span></p>
+
+						<p><span>Specialties<br>
+						Development process: Agile development, Scrum<br>
+						Automation tools: JUnit 4, Java, Eclipse, SOAP UI, JMeter, Selenium, ANT, Hudson, EMMA(Code coverage tool)<br>
+						Database: Mysql<br>
+						OS: Windows, Linux(CentOS/Redhat)<br>
+						Continuous Integration: Hudson, ANT,Git<br>
+						Storage concept, data protection tech<br>
+						Virtualization, Cloud computing , SAAS<br>
+						Entry level of Pattern Recognition and Data Mining<br></span></p>
+
+						
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

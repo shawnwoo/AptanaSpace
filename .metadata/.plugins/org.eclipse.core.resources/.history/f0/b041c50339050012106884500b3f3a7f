@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="author" content="Xiaopeng WU" />
+		<meta name="keywords" content="Xiaopeng, resume, activity" />
+		<meta name="description" content="HW1 of COEN 276" />
+		<title>index</title>
+		
+		<style type="texxt/css" media="all">
+			@import "mystyles.css";
+		</style>
+
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="intro">
+				<div id="pageHeader">
+					<h1><span>Welcome to Xiaopeng WU's website</span></h1>
+					<h2><span>My resume and activities</span></h2>
+				</div>
+			</div>
+		</div>
+		
+
+	</body>
+</html>

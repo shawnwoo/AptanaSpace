@@ -1,0 +1,65 @@
+<!--**
+* Name: Xiaopeng WU
+* Course Name: COEN 276 Web programming I
+* Assign Number:2
+* Date of Submission: Oct.19th, 2012	-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+		<title>Top Quiz</title>
+
+		<style type="text/css" media="all">
+			@import "css/mystyles.css";
+		</style>
+
+	</head>
+
+	<body class="Body">
+
+		<div id="title_section" >
+			<div id="blackdiv"></div>
+
+			<h1 style="font-size:24pt;padding-top:15px;" class="wrap">Top Quiz</h1>
+
+		</div>
+
+		<div id="score_section" class="wrap">
+			<table>
+				<tr>
+					<td style="font-size: 30px">100</td>
+					<td>50</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<div id="question_section" class="wrap"></div>
+		
+		<div id="control_section" class="wrap"></div>
+		
+
+		<div class="clearme"></div>
+
+		<div id="footer">
+			<div id="footer-top"></div>
+			<div id="footer_ins">
+				<div id="footer_wrapper" class="wrap">
+					<a name="Contact"></a>
+					<p>
+						Contact me by Email: xwu@scu.edu
+					</p>
+					<p>
+						<a href="http://validator.w3.org/check/referer"> <img src="http://www.w3.org/Icons/valid-xhtml10"
+						alt="Valid XHTML 1.0!" height="31" width="88" /> </a>
+					</p>
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>

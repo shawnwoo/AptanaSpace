@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;COEN276_P/CSS/images&apos;" deleteContents="false" description="Delete resource &apos;COEN276_P/CSS/images&apos;" element1="/COEN276_P/CSS/images" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1349644871677"/>
+</session>

@@ -1,0 +1,82 @@
+// Add more objects of your choice
+
+function result(){
+	var right=0;
+	var wrong=0;
+	var total=0;
+	test=123;
+	
+	function addRight(score){
+		right+=score;
+	}
+	
+	function addWrong(score){
+		wrong+=score;
+	}
+	
+	function getRight(){
+		return right;
+	}
+	
+	function getWrong(){
+		return wrong;
+	}
+	
+	function getTotal(){
+		return right-wrong;
+	}
+	function clearScore(){
+		right=0;
+		wrong=0;
+		total=0;
+	}
+}
+
+$(document).ready(function() {
+
+	var qc = "#question_section p";
+	var r=new result();
+
+	$("#btnStart").click(function() {
+		
+		//r.clearScore();
+		console.log(r.getWrong());
+		//console.log(r.getWrong());
+		//console.log(r.getTotal());
+
+		//	T1();
+		//window.setTimeout(function(){T1();},1000);
+		constructQuestion();
+	})
+
+	$("#btnNext").click(function() {
+
+	})
+
+	$("#btnQuit").click(function() {
+		alert();
+	})
+	var constructQuestion = function() {
+		$.each(geoQuestions, function() {
+			if (this.questionType === 1) {
+				createMultiChoiceQuestion(this);
+			}
+		})
+	}
+})
+var createMultiChoiceQuestion = function(question) {
+
+	$("#question_section").html("<p>" + question.question + "</p></br><form></form>	");
+
+	addOption(question, $("#question_section form"));
+
+}
+var addOption = function(question, element) {
+	for (q in question.choices) {
+
+		element.append("<input type=\"radio\" name=\"group1\" value=\"" + question.choices[q] + "\">" + question.choices[q] + " </br>");
+
+	}
+}
+
+

@@ -1,0 +1,35 @@
+// Add more objects of your choice
+
+$(document).ready(function() {
+
+	var qc = "#question_section p";
+	
+	$("#btnStart").click(function(){
+		
+	T1();	
+	//window.setTimeout(function(){T1();},1000);
+		
+	})
+	
+	$("#btnNext").click(function(){
+		alert();
+	})
+	
+	$("#btnQuit").click(function(){
+		alert();
+	})
+	
+	
+	var constructQuestion=function(){
+		
+	}
+
+	
+	var loadQuestion = function() {
+		for(q in geoQuestions){
+			if(q.questionType===1) alert("1");
+		}
+
+	}
+})
+

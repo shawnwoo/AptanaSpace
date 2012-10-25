@@ -1,0 +1,224 @@
+/*CSS Document*/
+/**
+ * Name: Xiaopeng WU
+ * Course Name: COEN 276 Web programming I
+ * Assign Number:1
+ * Date of Submission: Oct. 4th, 2012	**/
+body {
+
+	background-image: url(../img/bg.jpg);
+	background-repeat: repeat;
+	font-family: 'Droid Serif', Verdana, serif;
+	color: #2e2e2e;
+	font-weight: normal !important;
+}
+
+*, body, html {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+/********************header******************/
+
+#blackdiv {
+	height: 5px;
+	background: black;
+}
+
+#title_section {
+	background: url(../img/header.png) repeat-x;
+	height: 190px;
+}
+#logo {
+	float: left;
+	margin-left: 10px;
+}
+
+#slideshow {
+	height: 375px;
+	background: url(../img/waves.png) repeat-x;
+	margin-top: 60px;
+}
+
+.wrap {
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+}
+
+/*************body************************/
+
+.body {
+	font: sans-serif;
+	font-size: 10pt;
+}
+
+.clearme {
+	clear: both;
+}
+
+/****************box******************************/
+
+.box_content {
+	width: 671px;
+	font-size: 14px;
+	margin-bottom: 30px;
+}
+.box_top {
+	background: url(../img/box_top.png) no-repeat;
+	height: 12px;
+}
+
+.box_repeat {
+	background: url(../img/box-repeat.jpg) repeat-y;
+	padding: 10px 10px 20px 25px;
+}
+
+.box_bottom {
+	background: url(../img/box_bottom.png) no-repeat;
+	height: 18px;
+	width: 671px;
+	margin-bottom: 10px;
+}
+
+/********************about*****************************/
+
+#about_left {
+	float: left;
+	width: 345px;
+}
+
+#about_right {
+	float: left;
+	width: 180px;
+	margin-left: 40px;
+}
+
+.or_title {
+	color: #c45a34;
+	font: 20px 'Lobster', Verdana, serif;
+	margin-bottom: 20px;
+}
+
+#about_right ul {
+	margin-left: 20px;
+}
+
+#about_right li {
+	color: #683646;
+	margin-bottom: 10px;
+}
+
+#about_right li span {
+	color: #2e2e2e;
+}
+
+/******************footer************************/
+
+#footer {
+
+	bottom: 0;
+	width: 100%;
+}
+
+#footer_ins {
+	background: url(../img/footer_bg.jpg);
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#footer-top {
+	background: url(../img/footer.png) repeat-x;
+	height: 89px;
+}
+
+/****************table************************/
+
+#rounded-corner {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	width: 480px;
+	text-align: left;
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+#rounded-corner thead th.rounded-activity {
+	background: #B9C9FE url(../img/left.png) left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-time {
+	background: #B9C9FE url(../img/right.png) right -1px no-repeat;
+}
+
+#rounded-corner th {
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #B9C9FE;
+	padding: 8px;
+}
+
+#rounded-corner td {
+	background: #E8EDFF;
+	border-top: 1px solid white;
+	color: #669;
+	padding: 8px;
+}
+
+#rounded-corner tfoot td.rounded-foot-left {
+	background: #E8EDFF url(../img/botleft.png) left bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-right {
+	background: #E8EDFF url(../img/botright.png) right bottom no-repeat;
+}
+
+/****************score section*******************/
+
+#wrong_score {
+	color: red;
+	font-size: 50px;
+}
+
+#right_score {
+	color: green;
+	font-size: 50px;
+}
+
+.blank_space{
+	padding-left:100px;
+	padding-right:100px;
+}
+
+#score_section th{
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size:30px;
+}
+.score_td{
+	font-size:20px;
+	
+}
+
+.bottom_divider{
+	border-bottom:1px solid #EBEBEB;
+}
+
+
+/***************control section*****************/
+.button{
+	font-size:20px;
+	color:blue;
+	width:100px;
+	height:80px;
+}
+
+
+/****************question_section*************/
+form{
+	font-szie:15px;
+	color:blue;
+}

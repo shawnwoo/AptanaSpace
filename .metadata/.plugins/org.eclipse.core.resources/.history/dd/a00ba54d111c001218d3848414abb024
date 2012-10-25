@@ -1,0 +1,31 @@
+// Add more objects of your choice
+
+$(document).ready(function() {
+
+	var qc = "#question_section p";
+	
+	$("#btnStart").click(function(){
+		$(qc).text("q1");
+	})
+	
+	$("#btnNext").click(function(){
+		alert();
+	})
+	
+	$("btnQuit").click(function(){
+		alert();
+	})
+	
+	
+
+	var T1 = function() {
+		
+
+		$(qc).text("Q1");
+		$("#question_section").text("Q2");
+	}
+	var loadQuestion = function() {
+		$(qc).html()
+
+	}
+})

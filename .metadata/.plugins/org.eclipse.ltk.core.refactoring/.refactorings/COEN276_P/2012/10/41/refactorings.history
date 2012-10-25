@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;COEN276_P/CSS&apos; to &apos;css&apos;" description="Rename resource &apos;CSS&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CSS" name="css" stamp="1349644876706" updateReferences="true"/>
+</session>
