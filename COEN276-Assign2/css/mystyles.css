@@ -2,8 +2,8 @@
 /**
  * Name: Xiaopeng WU
  * Course Name: COEN 276 Web programming I
- * Assign Number:1
- * Date of Submission: Oct. 4th, 2012	**/
+ * Assign Number:2
+ * Date of Submission: Oct. 26th, 2012	**/
 body {
 
 	background-image: url(../img/bg.jpg);
@@ -138,43 +138,7 @@ img {
 
 /****************table************************/
 
-#rounded-corner {
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	font-size: 12px;
-	width: 480px;
-	text-align: left;
-	border-collapse: collapse;
-	margin: 20px;
-}
 
-#rounded-corner thead th.rounded-activity {
-	background: #B9C9FE url(../img/left.png) left -1px no-repeat;
-}
-#rounded-corner thead th.rounded-time {
-	background: #B9C9FE url(../img/right.png) right -1px no-repeat;
-}
-
-#rounded-corner th {
-	font-weight: normal;
-	font-size: 13px;
-	color: #039;
-	background: #B9C9FE;
-	padding: 8px;
-}
-
-#rounded-corner td {
-	background: #E8EDFF;
-	border-top: 1px solid white;
-	color: #669;
-	padding: 8px;
-}
-
-#rounded-corner tfoot td.rounded-foot-left {
-	background: #E8EDFF url(../img/botleft.png) left bottom no-repeat;
-}
-#rounded-corner tfoot td.rounded-foot-right {
-	background: #E8EDFF url(../img/botright.png) right bottom no-repeat;
-}
 
 /****************score section*******************/
 
@@ -196,7 +160,7 @@ img {
 #score_section th{
 	padding-top:20px;
 	padding-bottom:20px;
-	font-size:30px;
+	font-size:25px;
 }
 .score_td{
 	font-size:20px;
@@ -214,11 +178,13 @@ img {
 	color:blue;
 	width:100px;
 	height:80px;
+	cursor:hand;
 }
 
 #control_section{
 	padding-top:50px;
 }
+
 
 
 /****************question_section*************/
@@ -228,7 +194,7 @@ img {
 	font-family:Arial, Helvetica, sans-serif;
 	font-style: oblique;
 	padding-top:30px;
-	
+	overflow: auto;
 	
 }
 form{

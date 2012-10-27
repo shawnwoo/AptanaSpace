@@ -1,0 +1,47 @@
+/**
+ * @author shawnwoo
+ */
+
+var geoQuestions=[
+	{
+		question: "Where is the great Barrier Reef?",
+		questionType:1,
+		choices:["Africa","N.America","S.America","Asia","Australia"],
+		correctChoice:"Australia",
+		score:5
+	},
+	
+	{
+		question:"What planet is Curiosity Rover on now?",
+		questionType:2,
+		correctChoice:"Mars",
+		score:10
+	},
+	
+	{
+		question:"Which state is the Silicon Valley in?",
+		questionsType:1,
+		correctChoice:["California","Nevada","Washington","New York"],
+		correctChoice:"California",
+		score:5
+	},
+	{
+		question:"Which country has the most population in the world?",
+		questionType:1,
+		correctChoice:["USA","China","India","Japan"],
+		correctChoice:"China",
+		score:5
+	},
+	{
+		question:"The famous Golden Gate bridge is in which city?",
+		question:2,
+		correctChoice:"San Francisco",
+		score:10
+	}
+	
+	
+	
+]
+
+
+

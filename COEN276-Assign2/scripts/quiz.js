@@ -1,6 +1,11 @@
 // Add more objects of your choice
+var seconds = 0;
+		var mins = 0;
+
 
 $(document).ready(function() {
+	
+	geoQuestions.sort(function() {return 0.5 - Math.random()});
 
 	var qc = "#question_section p";
 	var r = new result();
@@ -9,12 +14,21 @@ $(document).ready(function() {
 	$("#btnStart").click(function() {
 
 		r.clearScore();
+		$('#progress_section').css("visibility","visible");
+		$("#timer_icon").css("visibility","visible");
+		updateProgressBar(0);
 
 		number = constructQuestion(number);
 
 		$("#btnStart").prop("disabled", true);
 		$("#btnStart").attr("style", "color:#9c9c9c;");
+		$("#btnNext").prop("disabled", false);
+		$("#btnNext").attr("style", "color:#0000FF;");
 
+		
+		
+		t=setInterval("display()", 1000);
+		display();
 	})
 
 	$("#btnNext").click(function() {
@@ -22,20 +36,34 @@ $(document).ready(function() {
 		if (number == geoQuestions.length) {
 			$("#btnNext").prop("disabled", true);
 			$("#btnNext").attr("style", "color:#9c9c9c;");
+			
+			
+			
 		}
-
-		console.log(number);
 
 		checkScore(geoQuestions[number - 1], r);
 
 		updateScore(r);
+
+		updateProgressBar(number / geoQuestions.length);
+		
+		if(number==geoQuestions.length){
+			alert("Congratulations, you finished the quiz!");
+			clearInterval(t);
+		}
 
 		number = constructQuestion(number);
 
 	})
 
 	$("#btnQuit").click(function() {
-		alert();
+		var confirmBtn = confirm("Are you sure you want to quit the quiz?")
+		if (confirmBtn == true) {
+			document.location.reload(true);
+
+		} else {
+		}
+
 	})
 	var constructQuestion = function(number) {
 
@@ -54,7 +82,6 @@ $(document).ready(function() {
 			number++;
 		}
 
-	
 		return number;
 
 	}
@@ -95,8 +122,6 @@ var checkScore = function(question, result) {
 	if (question.questionType === 2) {
 
 		var ans = "#ans";
-		console.log($(ans).val());
-		console.log(question.correctChoice);
 
 		if ($(ans).val() === question.correctChoice) {
 			result.addRight(question.score);
@@ -141,4 +166,41 @@ function result() {
 		wrong = 0;
 		total = 0;
 	}
+}
+
+var showTimer = function() {
+
+}
+
+var display = function() {
+			if (seconds >= 59) {
+				seconds = 0;
+				mins += 1;
+			} else {
+				seconds += 1;
+			}
+
+			$("#timer").text(mins + " mins " + seconds + " secs");
+
+		}
+var updateDate = function() {
+	var mydate = new Date()
+	var year = mydate.getYear()
+	if (year < 1000)
+		year += 1900
+	var day = mydate.getDay()
+	var month = mydate.getMonth()
+	var daym = mydate.getDate()
+	if (daym < 10)
+		daym = "0" + daym
+	var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+	var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+	$("#date").text(dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year);
+
+}
+var updateProgressBar = function(number) {
+	
+	$("#progressbar").progressbar({
+		value : number * 100
+	});
 }

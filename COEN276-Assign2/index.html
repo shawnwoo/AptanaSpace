@@ -9,7 +9,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
 		<script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type='text/javascript' src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
 		<script type="text/javascript" src="scripts/questions.js"></script>
 
 		<script type='text/javascript' src="scripts/quiz.js"></script>
@@ -28,26 +30,51 @@
 		<div id="title_section" >
 			<div id="blackdiv"></div>
 
-			<h1 style="font-size:24pt;padding-top:15px;" class="wrap">Top Quiz</h1>
+			<table class="wrap">
+				<tr>
+					<td><img src="img/logo.png" alt="logo"/></td>
+
+				</tr>
+			</table>
+
+			<h2 class="wrap" style="padding-top:15px;text-align: center; font-family:cursive; ">Geographic Questions</h2>
+			<h3 class="wrap" style="font-size:12px;color:gray;text-align:right;" id="date"></h3>
+			<script type="text/javascript">
+				$(updateDate)
+			</script>
 
 		</div>
 
 		<div id="score_section" class="wrap" style="border-bottom: 1px solid #B9C9FE;">
 			<table>
-				<th>Score:</th>
+				<tr>
+					<th>Score:</th>
+				</tr>
 
 				<tr>
-					<td class="score_td">WRONG:</td>
-					<td id="wrong_score" >0</td>
+					<td><img src="img/wrong.png" alt="wrong"/></td>
+					<td id="wrong_score" style="padding-left:20px;">0</td>
 					<td class="blank_space"></td>
 
-					<td class="score_td">RIGHT:</td>
-					<td id="right_score">0</td>
+					<td ><img src="img/correct.png" alt="correct"/></td>
+					<td id="right_score" style="padding-left: 20px;">0</td>
+
+					<td class="blank_space"></td>
+					<td id="timer_icon" style="visibility: hidden"><img src="img/timer.png" alt="timer"/></td>
+					<td id="timer"></td>
 				</tr>
 			</table>
 		</div>
 
-		<div id="question_section" class="wrap" >
+		<div id="progress_section" style="padding-top:20px;visibility:hidden;" class="wrap" >
+			<p style="font-style: italic">
+				Progress:
+			</p>
+			<div id="progressbar" ></div>
+		</div>
+
+		<div id="question_section" style="height:300px;" class="wrap" >
+
 			<p style="padding-bottom:100px;padding-top: 100px;color:blue;font-size: 25px;">
 				Press Start button to start the quiz!
 			</p>
@@ -57,12 +84,12 @@
 			<table>
 				<tr>
 					<td>
-					<button type="button" id="btnStart" class="button"  style="color:red;">
+					<button type="button" id="btnStart" class="button"  style="color:red;" >
 						Start
 					</button></td>
 					<td class="blank_space"></td>
 					<td>
-					<button type="button" id="btnNext" class="button">
+					<button type="button" id="btnNext" class="button" disabled="disabled" style="color:#9c9c9c;">
 						Next Question
 					</button></td>
 					<td class="blank_space"></td>
