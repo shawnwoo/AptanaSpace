@@ -1,0 +1,143 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>CampusCafe</title>
+		<style type="text/css" media="all">
+			@import "css/style.css";
+		</style>
+		<link rel="stylesheet" href="css/accordionmenu.css" type="text/css" media="screen">
+
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/base/jquery-ui.css" />
+		<script type='text/javascript' src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type='text/javascript' src="http://code.jquery.com/ui/jquery-ui-git.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				// Store variables
+
+				var accordion_head = $('.accordion > li > a'), accordion_body = $('.accordion li > .sub-menu');
+
+				// Open the first tab on load
+
+				accordion_head.first().addClass('active').next().slideDown('normal');
+
+				// Click function
+
+				accordion_head.on('click', function(event) {
+
+					// Disable header links
+
+					event.preventDefault();
+
+					// Show and hide the tabs on click
+
+					if ($(this).attr('class') != 'active') {
+						accordion_body.slideUp('normal');
+						$(this).next().stop(true, true).slideToggle('normal');
+						accordion_head.removeClass('active');
+						$(this).addClass('active');
+					}
+
+				});
+
+			});
+
+		</script>
+
+	</head>
+	<body>
+		<div id="container">
+			<div id="nav">
+
+				<table width="100%" border="0" cellpadding="0" cellspacing="0">
+					<tbody>
+						<tr>
+							<td width="116"><a href="#"><img src="images/logo.png" width="116" height="70" border="0" alt="Campus Cofe Home" id="logo" class="png"></a></td>
+							<td>
+							<div id="menu">
+								<ul class="tabs">
+									<li>
+										<a href="#" onmouseover="cafe.src='images/cafe2.png';" onmouseout="cafe.src='images/cafe1.png';" class="png"> <img src="images/cafe1.png" alt="cafe" name="cafe" width="117" height="67" border="0" id="cafe" class="png"/  > </a>
+									</li>
+									<li>
+										<a href="#" onmouseover="forum.src='images/forum2.png';" onmouseout="forum.src='images/forum1.png';" class="png"> <img src="images/forum1.png" alt="forum" name="forum" width="85" height="67" border="0" id="forum" class="png"/ > </a>
+									</li>
+
+									<li>
+										<a href="#" onmouseover="status.src='images/status2.png';" onmouseout="status.src='images/status1.png';" class="png"> <img src="images/status1.png" alt="MyStatus" name="status" width="117" height="67" border="0" id="status" class="png"/ > </a>
+									</li>
+								</ul>
+							</div></td>
+
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="content">
+				<div id="top"></div>
+
+				<div id="middle-container">
+					<div id="middle">
+						<div id="slide_holder">
+
+							<img src="images/img6.jpg" alt="img"/ >
+
+						</div>
+
+						<table class="content" width="100%" cellpadding="0" cellspacing="0">
+							<tbody>
+								<tr>
+									<td class="left" width="66%" valign="top"><iframe width="620" height="368" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=-121.94453,37.34561,-121.93153,37.35331&amp;layer=mapnik&amp;marker=37.34950,-121.93858" style="border: 1px solid black"></iframe>
+									<br />
+									<small><a href="http://www.openstreetmap.org/?lat=37.34946&amp;lon=-121.93803&amp;zoom=17&amp;layers=M&amp;mlat=37.34950&amp;mlon=-121.93858">View Larger Map</a></small></td>
+									<td class="right" style="padding-left:5px;" valign="top"><h2>Cafe Descriptions</h2>
+									<ul class="accordion">
+
+										<li id="one" class="cafe">
+
+											<a href="#one">Smart Cafe</a>
+
+											<ul class="sub-menu">
+
+												<p>
+													Feed your brain.  Smart cafe features organic and  locally grown foods that are good for your brain.  All our food comes from farms that are within 20 miles of campus.  All our eggs come from  cage-free chickens which means higher levels of choline for your diet.  Choline has been scientifically proven to boost brain power and memory retention. You can find these nutritious eggs in our Egg Supreme Sandwich as well as in all our baked goodies such as the Blueberry Power Muffin.  We also feature gluten-free options such as Salmon & Greens in the main dish section.  Vegan choices such as our signature Compassion Salad are also available.   Our menu is available for ordering online with vegan and gluten-free options clearly labeled making conscious eating easy.
+												</p>
+
+											</ul>
+
+										</li>
+
+										<li id="two" class="cafe">
+
+											<a href="#two">Rooftop Garden Cafe</a>
+
+											<ul class="sub-menu">
+
+												<p>
+													The Rooftop Garden Cafe is one of the most unique eating experiences on campus.  All our fruits and vegetables are grown on one of the nine roofs designated to us on campus, and all our meats come from Monterey County. This makes us the most locally-grown cafe on campus.  Since our focus is on vegetables, our menu is extremely vegan friendly.  We also offer gluten-free choices.   Foods that are not subjected to long transportation and storage times are more nutritionally packed and reduces the carbon footprint by 90% compared to crops that must be shipped across the country.  Tour our rooftop gardens on Tuesdays and Thursdays from 3-4 pm.
+												</p>
+
+											</ul>
+
+										</li>
+
+									</ul></td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+
+				</div>
+
+				<div id="bot">
+					COEN 276 2012 Fall.  Group P.&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">About Us</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#">Contact Us</a>&nbsp;&nbsp;&nbsp;
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>

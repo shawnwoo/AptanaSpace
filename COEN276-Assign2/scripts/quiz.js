@@ -1,4 +1,9 @@
-// Add more objects of your choice
+
+/**
+ * Name: Xiaopeng WU
+ * Course Name: COEN 276 Web programming I
+ * Assign Number:2
+ * Date of Submission: Oct. 26th, 2012	**/
 var seconds = 0;
 		var mins = 0;
 

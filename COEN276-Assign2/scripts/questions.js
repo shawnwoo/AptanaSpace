@@ -1,7 +1,9 @@
-/**
- * @author shawnwoo
- */
 
+/**
+ * Name: Xiaopeng WU
+ * Course Name: COEN 276 Web programming I
+ * Assign Number:2
+ * Date of Submission: Oct. 26th, 2012	**/
 var quizTitle="Geographics";
 
 

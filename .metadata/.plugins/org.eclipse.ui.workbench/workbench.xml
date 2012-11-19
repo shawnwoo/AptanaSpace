@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="36" version="2.0">
+<workbench progressCount="41" version="2.0">
 <workbenchAdvisor/>
-<window height="1920" maximized="true" width="610" x="2188" y="-8">
+<window height="1040" maximized="true" minimized="true" width="1084" x="2484" y="-15">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -17,7 +17,8 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="95" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="com.aptana.editor.js" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.php" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.aptana.editor.js" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.css" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.aptana.editor.html" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -39,21 +40,25 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="com.aptana.editor.html" name="index.html" partName="index.html" path="D:/code/AptanaSpace/COEN276-Assign2/index.html" title="index.html" tooltip="COEN276-Assign2/index.html" workbook="DefaultEditorWorkbook">
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html | COEN276-Assign2" path="D:/code/AptanaSpace/COEN276-Assign2/index.html" title="index.html | COEN276-Assign2" tooltip="COEN276-Assign2/index.html" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276-Assign2/index.html"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2853" selectionTopPixel="322"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3435" selectionTopPixel="1192"/>
 </editor>
-<editor id="com.aptana.editor.js" name="quiz.js" partName="quiz.js" path="D:/code/AptanaSpace/COEN276-Assign2/scripts/quiz.js" title="quiz.js" tooltip="COEN276-Assign2/scripts/quiz.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276-Assign2/scripts/quiz.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="163" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.html" name="index.html" partName="index.html" path="D:/code/COEN276P/COEN276_Project/index.html" title="index.html" tooltip="COEN276_Project/index.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276_Project/index.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3740" selectionTopPixel="675"/>
 </editor>
-<editor id="com.aptana.editor.css" name="mystyles.css" partName="mystyles.css" path="D:/code/AptanaSpace/COEN276-Assign2/css/mystyles.css" title="mystyles.css" tooltip="COEN276-Assign2/css/mystyles.css" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276-Assign2/css/mystyles.css"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="134" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.css" name="accordionmenu.css" partName="accordionmenu.css" path="D:/code/COEN276P/COEN276_Project/css/accordionmenu.css" title="accordionmenu.css" tooltip="COEN276_Project/css/accordionmenu.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276_Project/css/accordionmenu.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5148" selectionTopPixel="405"/>
 </editor>
-<editor id="com.aptana.editor.js" name="questions.js" partName="questions.js" path="D:/code/AptanaSpace/COEN276-Assign2/scripts/questions.js" title="questions.js" tooltip="COEN276-Assign2/scripts/questions.js" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276-Assign2/scripts/questions.js"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="635" selectionTopPixel="0"/>
+<editor id="com.aptana.editor.css" name="style.css" partName="style.css" path="D:/code/COEN276P/COEN276_Project/css/style.css" title="style.css" tooltip="COEN276_Project/css/style.css" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276_Project/css/style.css"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="com.aptana.editor.html" name="forum.html" partName="forum.html" path="D:/code/COEN276P/COEN276_Project/forum.html" title="forum.html" tooltip="COEN276_Project/forum.html" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/COEN276_Project/forum.html"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2346" selectionTopPixel="300"/>
 </editor>
 </editors>
 <views>
@@ -70,9 +75,6 @@
 <view id="com.aptana.samples.ui.SamplesView" partName="Samples"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -85,7 +87,7 @@
 <viewState/>
 </view>
 <view id="com.aptana.explorer.view" partName="App Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="COEN276-Assign2">
+<viewState CommonNavigator.LINKING_ENABLED="0" GitChangedFilesFilterEnabled="" activeProject="COEN276_Project">
 <project name="COEN276-Assign1">&#x0A;<selection>&#x0A;<element path="/COEN276-Assign1/css"/>
 </selection>
 </project>
@@ -95,7 +97,7 @@
 <selection>&#x0A;<element path="/COEN276-Assign2/index.html"/>
 </selection>
 </project>
-<project name="COEN276_P">&#x0A;<selection>&#x0A;<element path="/COEN276-Assign2"/>
+<project name="COEN276_Project">&#x0A;<selection>&#x0A;<element path="/COEN276_Project"/>
 </selection>
 </project>
 </viewState>
@@ -173,7 +175,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.09915809" ratioLeft="106" ratioRight="963" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2039289" ratioLeft="218" ratioRight="851" relationship="2" relative="left"/>
 <info folder="true" part="terminalArea" ratio="0.75" ratioLeft="636" ratioRight="212" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -211,55 +213,16 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/COEN276-Assign2/css/mystyles.css"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/COEN276-Assign2/index.html"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/COEN276-Assign2/scripts/questions.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/COEN276_P/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" path="/COEN276-Assign2/scripts/questions.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/COEN276_P/css/style.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/COEN276-Assign2/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/COEN276_Project/index.html"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/COEN276_Project/css/accordionmenu.css"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" path="/COEN276_Project/css/style.css"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" uri="file:/C:/Users/shawnwoo/SkyDrive/e-Book/WebProgramming/Week7_1_PHP/Set2_PHP/username.php"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" path="/COEN276_Project/forum.html"/>
 </editors>
-<item historyLabel="quiz.js" index="0">
-<position/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="817" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="797" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="877" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="1112" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="1108" y="0"/>
-</item>
-<item historyLabel="index.html" index="2">
-<position/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="1108" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="394" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="4199" y="0"/>
-</item>
-<item historyLabel="index.html" index="2">
-<position info="not_deleted" x="1896" y="0"/>
-</item>
-<item historyLabel="quiz.js" index="0">
-<position info="not_deleted" x="2666" y="0"/>
-</item>
-<item historyLabel="mystyles.css" index="1">
-<position info="not_deleted" x="134" y="0"/>
-</item>
-<item historyLabel="index.html" index="2">
-<position/>
-</item>
-<item historyLabel="index.html" index="2">
-<position/>
-</item>
 <item historyLabel="index.html" index="2">
 <position/>
 </item>
@@ -317,8 +280,98 @@
 <item historyLabel="questions.js" index="3">
 <position info="not_deleted" x="635" y="0"/>
 </item>
-<item active="true" historyLabel="index.html" index="2">
+<item historyLabel="index.html" index="2">
 <position info="not_deleted" x="2853" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position info="not_deleted" x="4573" y="0"/>
+</item>
+<item historyLabel="questions.js" index="5">
+<position info="not_deleted" x="635" y="0"/>
+</item>
+<item historyLabel="index.html" index="4">
+<position/>
+</item>
+<item historyLabel="style.css" index="6">
+<position/>
+</item>
+<item historyLabel="index.html | COEN276_P" index="4">
+<position info="not_deleted" x="2498" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276-Assign2" index="7">
+<position info="not_deleted" x="400" y="275"/>
+</item>
+<item historyLabel="index.html | COEN276_P" index="4">
+<position info="not_deleted" x="3148" y="0"/>
+</item>
+<item historyLabel="style.css" index="6">
+<position info="not_deleted" x="752" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_P" index="4">
+<position info="not_deleted" x="2822" y="0"/>
+</item>
+<item historyLabel="style.css" index="6">
+<position info="not_deleted" x="2412" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276-Assign2" index="7">
+<position info="not_deleted" x="1092" y="0"/>
+</item>
+<item historyLabel="style.css" index="6">
+<position info="not_deleted" x="2412" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_P" index="4">
+<position info="not_deleted" x="1220" y="0"/>
+</item>
+<item historyLabel="style.css" index="6">
+<position info="not_deleted" x="2146" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_P" index="4">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="style.css" index="6">
+<position info="not_deleted" x="2146" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_P" index="4">
+<position info="not_deleted" x="1278" y="0"/>
+</item>
+<item historyLabel="style.css" index="6">
+<position info="not_deleted" x="2146" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_Project" index="8">
+<position/>
+</item>
+<item historyLabel="accordionmenu.css" index="9">
+<position info="not_deleted" x="3423" y="0"/>
+</item>
+<item historyLabel="style.css" index="10">
+<position info="not_deleted" x="3854" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276-Assign2" index="7">
+<position info="not_deleted" x="3435" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_Project" index="8">
+<position info="not_deleted" x="5633" y="0"/>
+</item>
+<item historyLabel="style.css" index="10">
+<position info="not_deleted" x="3854" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_Project" index="8">
+<position/>
+</item>
+<item historyLabel="accordionmenu.css" index="9">
+<position info="not_deleted" x="5148" y="0"/>
+</item>
+<item historyLabel="index.html | COEN276_Project" index="8">
+<position info="not_deleted" x="3740" y="0"/>
+</item>
+<item historyLabel="username.php" index="11">
+<position info="not_deleted" x="336" y="0"/>
+</item>
+<item historyLabel="index.html" index="8">
+<position info="not_deleted" x="3740" y="0"/>
+</item>
+<item active="true" historyLabel="forum.html" index="12">
+<position info="not_deleted" x="2642" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -337,6 +390,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="forum.html" tooltip="COEN276_Project/forum.html">
+<persistable path="/COEN276_Project/forum.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.php" name="username.php" tooltip="C:\Users\shawnwoo\SkyDrive\e-Book\WebProgramming\Week7_1_PHP\Set2_PHP\username.php">
+<persistable uri="file:/C:/Users/shawnwoo/SkyDrive/e-Book/WebProgramming/Week7_1_PHP/Set2_PHP/username.php"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="style.css" tooltip="COEN276_Project/css/style.css">
+<persistable path="/COEN276_Project/css/style.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="accordionmenu.css" tooltip="COEN276_Project/css/accordionmenu.css">
+<persistable path="/COEN276_Project/css/accordionmenu.css"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="COEN276_Project/index.html">
+<persistable path="/COEN276_Project/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="COEN276-Assign2/index.html">
+<persistable path="/COEN276-Assign2/index.html"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="questions.js" tooltip="COEN276-Assign2/scripts/questions.js">
 <persistable path="/COEN276-Assign2/scripts/questions.js"/>
 </file>
@@ -352,17 +423,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.js" name="quiz.js" tooltip="COEN276-Assign2/scripts/quiz.js">
 <persistable path="/COEN276-Assign2/scripts/quiz.js"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="COEN276-Assign2/index.html">
-<persistable path="/COEN276-Assign2/index.html"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="img6.jpg" tooltip="COEN276_P/images/img6.jpg">
 <persistable path="/COEN276_P/images/img6.jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.css" name="style.css" tooltip="COEN276_P/css/style.css">
-<persistable path="/COEN276_P/css/style.css"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="COEN276_P/index.html">
-<persistable path="/COEN276_P/index.html"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="logo.png" tooltip="COEN276-Assign1/img/logo.png">
 <persistable path="/COEN276-Assign1/img/logo.png"/>
@@ -372,9 +434,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="bg.jpg" tooltip="COEN276-Assign1/img/bg.jpg">
 <persistable path="/COEN276-Assign1/img/bg.jpg"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="bg1.jpg" tooltip="COEN276-Assign1/bg1.jpg">
-<persistable path="/COEN276-Assign1/bg1.jpg"/>
 </file>
 </mruList>
 </workbench>

@@ -2,11 +2,14 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="false" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="wholeword"/>
-		<item value="console.log" key="selection"/>
+		<item value="font" key="selection"/>
 		<list key="findhistory">
+			<item value="font"/>
+			<item value="img"/>
+			<item value="Source: http://designmodo.com/jquery-accordion-menu/#ixzz2ATHsoYUD"/>
 			<item value="console.log"/>
 			<item value="menu"/>
 			<item value="Tahoma"/>

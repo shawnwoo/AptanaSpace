@@ -1,0 +1,190 @@
+/*********************common******************************/
+body, td, th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/bg.jpg);
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	background-color: #94C9F5;
+}
+
+/********************container****************************/
+#container {
+	width: 1000px;
+	margin: auto;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+}
+
+#top {
+	background-image: url(../images/top.png);
+	background-repeat: no-repeat;
+	height: 28px;
+}
+
+#middle-container {
+	background-image: url(../images/mid.png);
+	background-repeat: no-repeat;
+	width: 100%;
+}
+#bot {
+	background-image: url(../images/footer.png);
+	background-repeat: no-repeat;
+	height: 100px;
+	padding: 36px 35px 0 35px;
+	color: white;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#bot a:visited {
+	text-decoration: underline;
+	color: white;
+}
+
+/********************nav*****************************/
+
+#nav {
+	height: 77px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-top: -1px;
+	background-image: url(../images/navbar.png);
+	background-repeat: no-repeat;
+}
+
+#logo {
+	width: 116px;
+	height: 70px;
+	position: relative;
+}
+
+#menu {
+	position: relative;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: white;
+	z-index: 1500;
+}
+#menu ul li a img {
+	vertical-align: middle;
+}
+
+ul.tabs {
+	margin: 0;
+	padding: 10;
+	list-style: none;
+}
+ul.tabs li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+
+/**************middle container*******************/
+
+#middle {
+	height: auto;
+	padding: 0 35px 0 34px;
+	margin: 0px;
+}
+
+#slide_holder {
+	position: relative;
+	background-repeat: no-repeat;
+	width: 928px;
+	height: 277px;
+	overflow: hidden;
+	text-align: left;
+	z-index: 100;
+}
+#slide_holder_inner {
+	width: 928px;
+	width: 277px;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	top: 0px;
+	z-index: 200;
+}
+#slide_holder_inner div {
+	position: absolute;
+}
+#slide_holder_inner img {
+	border: 0px;
+}
+#row_of_slides {
+	position: absolute;
+	top: 0;
+}
+
+table {
+	width: 100%;
+	border-spacing: 0px;
+}
+
+.content {
+	padding-top: 5px;
+}
+
+/******************accordion*******************/
+
+.accordion > li:hover > a, .accordion > li:target > a, .accordion > li > a.active {
+	color: #3E5706;
+	text-shadow: 1px 1px 1px rgba(255,255,255, .2);
+	background: #a5cd4e;
+	background: -moz-linear-gradient(top, #a5cd4e 0%, #6b8f1a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a5cd4e), color-stop(100%,#6b8f1a));
+	background: -webkit-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+	background: -o-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+	background: -ms-linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+	background: linear-gradient(top, #a5cd4e 0%,#6b8f1a 100%);
+}
+
+.accordion li.cafe > a:before {
+	background-position: 0px 0px;
+}
+.accordion li.cafe:hover > a:before, .accordion li.cafe:target > a:before, .accordion li.cafe > a.active:before {
+	background-position: 0px -24px;
+}
+
+.accordion li.mail > a:before {
+	background-position: -24px 0px;
+}
+.accordion li.mail:hover > a:before, .accordion li.mail:target > a:before, .accordion li.mail > a.active:before {
+	background-position: -24px -24px;
+}
+
+.accordion li.cloud > a:before {
+	background-position: -48px 0px;
+}
+.accordion li.cloud:hover > a:before, .accordion li.cloud:target > a:before, .accordion li.cloud > a.active:before {
+	background-position: -48px -24px;
+}
+
+.accordion li.sign > a:before {
+	background-position: -72px 0px;
+}
+.accordion li.sign:hover > a:before, .accordion li.sign:target > a:before, .accordion li.sign > a.active:before {
+	background-position: -72px -24px;
+}
+.accordion li > .sub-menu {
+	display: none;
+}
+
+.accordion li:target > .sub-menu {
+	display: block;
+}
+

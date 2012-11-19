@@ -11,4 +11,6 @@
 		<item value="org.eclipse.rcp:3.7.2.v20120120-1424-9DB5FmnFq5JCf1UA38R-kz0S0272"/>
 		<item value="org.radrails.rails:3.2.1.201208200956-7e-7Q7f5AFGLGbPa"/>
 	</list>
+	<section name="ExternalProjectImportWizard">
+	</section>
 </section>
